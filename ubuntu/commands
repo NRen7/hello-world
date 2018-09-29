@@ -1,0 +1,35 @@
+Ctrl + c stops the current process 
+
+Clear or Ctrl + L clears the terminal 
+
+ 
+
+Ctrl + Alt + 1-6 are terminals and Ctrl + Alt + 7 is the GUI 
+
+sudo apt list --installed #Lists installed applications 
+
+sudo rm /var/crash/* #Removes crash reports 
+
+sh ./pc-client-linux.sh 
+
+ 
+
+ 
+
+Matlab – Start from root folder 
+
+./usr/local/MATLAB/R2017b/matlab 
+
+ 
+
+Sudo fsck – File System Check 
+
+ 
+
+Screenfetch to display system specs 
+
+ 
+
+ 
+
+Terminal coler schemes: wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh 
