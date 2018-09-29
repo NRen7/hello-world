@@ -1,1 +1,24 @@
+Help('modules') - Displays a list of installed modules 
 
+scipy.signal.residue(b, a, tol=0.001, rtype='avg') - partial fraction expansion 
+
+String objects have one unique built-in operation: the % operator (modulo). This is also known as the string formatting or interpolation operator. Given format % values (where format is a string), % conversion specifications in format are replaced with zero or more elements of values. The effect is similar to using the sprintf() in the C language. 
+
+Style guide = https://www.python.org/dev/peps/pep-0008/ 
+
+Install modules to indivdual project folders - https://pipenv.readthedocs.io/en/latest/ 
+
+Pipenv manages dependencies on a per-project basis. To install packages, change into your project’s directory (or just an empty directory for this tutorial) and run: 
+$ cd myproject  
+$ pipenv install requests  
+Then you can run this script using pipenv run: 
+$ pipenv run python main.py  
+
+Python location 
+/home/nick/.local/lib/python3.6/site-packages/pip (python 3.6) 
+
+Packages locations 
+/usr/lib/python3/dist-packages 
+
+Install packages 
+pip install matplotlib --user 
