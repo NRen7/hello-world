@@ -1,0 +1,115 @@
+Software Packages 
+
+Ubuntu uses Debian (.deb) packages. 
+
+Pre-approved package repositories are located at /etc/apt/sources.list 
+
+ 
+
+Compressed and Archived Files 
+
+Gzip is used to compress a file and tar is used to create an archive of multiple files. 
+
+ 
+
+gzip is a program to compress single  files (.gz) 
+
+gzip myfile #compress a file 
+
+gunzip myfile.gz #decompress a file 
+
+ 
+
+Tar is used to archive multiple files (.tar) 
+
+tar cvf mytarfile.tar myfile1 myfile2 #create a tar archive 
+
+c - create 
+
+v - tell the program to be verbose and let us see what it’s doing 
+
+f – the filename of the tar file has to come after this option, if you are creating a tar file you'll have to come up with a name. 
+
+ 
+
+tar xvf mytarfile.tar #unpack tar archive 
+
+x – extract 
+
+v – verbose 
+
+f – the file you want to extract 
+
+ 
+
+tar czf my file.tar.gz #create a compressed tar file 
+
+z – use to gzip or gunzip utility 
+
+ 
+
+tar xzf file.tar #uncompress and unpack (eXtract all Zee Files) 
+
+ 
+
+Install a .deb file 
+
+.deb is an executable like .exe 
+
+ 
+
+dpkg -i some_deb_package.deb 
+
+i – install 
+
+ 
+
+dpgk –r some_deb_package.deb 
+
+r – remove 
+
+ 
+
+dpkg –l #list installed packages 
+
+l – list 
+
+ 
+
+Install/remove a package from a repository 
+
+apt install package_name #Install a package from a repository 
+
+ 
+
+apt remove package_name #Remove a package 
+
+ 
+
+Get information about installed package 
+
+apt show package_name 
+
+ 
+
+Compile source code 
+
+The package build-essential is required. 
+
+1)extract the file 
+
+2)open the README or INSTALL file 
+
+3) ./configure #checks for dependencies 
+
+Option 1 
+
+4)make 
+
+5a)sudo make install 
+
+5b)sudo make uninstall 
+
+Option 2 
+
+4)sudo checkinstall #use instead of make install. This makes a .deb file. 
